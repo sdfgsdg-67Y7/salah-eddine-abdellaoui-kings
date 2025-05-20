@@ -1,0 +1,115 @@
+# salah-eddine-abdellaoui-kings
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <title>موقع الألعاب - صلاح الدين عبدلاوي</title>
+  <style>
+    body {
+      background: #1e1e2f;
+      color: #eee;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+      margin: 0; padding: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    header {
+      background: #3f51b5;
+      padding: 20px;
+      font-size: 28px;
+      font-weight: bold;
+      color: white;
+      letter-spacing: 1.5px;
+    }
+    main {
+      flex-grow: 1;
+      padding: 40px 20px;
+    }
+    h2 {
+      margin-bottom: 15px;
+      color: #ffca28;
+    }
+    .welcome {
+      font-size: 22px;
+      margin-bottom: 40px;
+    }
+    .games-list {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 25px;
+    }
+    .game-card {
+      background: #283593;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+      width: 220px;
+      padding: 20px;
+      color: white;
+      transition: transform 0.3s ease;
+      cursor: pointer;
+      user-select: none;
+    }
+    .game-card:hover {
+      transform: scale(1.05);
+      background: #3949ab;
+    }
+    .game-card h3 {
+      margin-bottom: 12px;
+      font-size: 20px;
+    }
+    .game-card p {
+      font-size: 14px;
+      line-height: 1.4;
+    }
+    footer {
+      background: #3f51b5;
+      padding: 15px;
+      font-size: 14px;
+      color: #ddd;
+    }
+    a {
+      color: #ffca28;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>موقع الألعاب - صلاح الدين عبدلاوي</header>
+  <main>
+    <div class="welcome">مرحباً بك في موقع الألعاب الخاص بـ <strong>صلاح الدين عبدلاوي</strong>! استمتع بأفضل الألعاب المجانية أونلاين.</div>
+
+    <h2>ألعاب مقترحة</h2>
+    <div class="games-list">
+      <div class="game-card" onclick="window.open('https://agar.io', '_blank')">
+        <h3>Agar.io</h3>
+        <p>لعبة ممتعة حيث تتحكم في كرة وتحاول تكبيرها بابتلاع الكرات الأصغر.</p>
+      </div>
+      <div class="game-card" onclick="window.open('https://slither.io', '_blank')">
+        <h3>Slither.io</h3>
+        <p>سيطر على ثعبانك وتجنب الاصطدام بالآخرين لتصبح الأطول!</p>
+      </div>
+      <div class="game-card" onclick="window.open('https://2048game.com/', '_blank')">
+        <h3>2048</h3>
+        <p>لعبة ذكاء وسرعة، اجمع الأرقام المتشابهة حتى تصل إلى 2048.</p>
+      </div>
+      <div class="game-card" onclick="window.open('https://www.crazygames.com/game/fireboy-and-watergirl-the-forest-temple', '_blank')">
+        <h3>Fireboy & Watergirl</h3>
+        <p>لعبة تعاونية ممتعة تحتاج للتفكير لحل الألغاز مع صديق.</p>
+      </div>
+      <div class="game-card" onclick="window.open('https://www.google.com/search?q=snake+game', '_blank')">
+        <h3>لعبة الثعبان</h3>
+        <p>اللعبة الكلاسيكية المعروفة، استمتع بمحاولة البقاء لأطول وقت.</p>
+      </div>
+    </div>
+  </main>
+  <footer>
+    &copy; 2025 صلاح الدين عبدلاوي | كل الحقوق محفوظة
+  </footer>
+</body>
+</html>
